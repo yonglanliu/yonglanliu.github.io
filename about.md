@@ -3,8 +3,12 @@ layout: page
 title: About
 ---
 
-**Yonglan Liu, Ph.D.**  
-Computational Chemist | AI for Drug Discovery  
+## About
+Computational Chemist focusing on molecular dynamics and AI for drug discovery.
+
+## Contact
+- GitHub: https://github.com/yonglanliu
+- LinkedIn: https://www.linkedin.com/in/yonglan-liu-858284173/ 
 
 Background:
 - Ph.D. in Chemical Engineering
