@@ -7,10 +7,10 @@ layout: home
 </p>
 
 <p style="font-size:1.1em; margin-top:0;">
-Computational Chemist | MD simulation| Virtual Screening | AI/Machine Learning for Drug Discovery
+Computational Chemist | MD simulation| Virtual Screening | AI for Drug Discovery
 </p>
 ---
-<p> I am a computational chemist with a strong focus on **physics-based modeling and AI-assisted decision making in drug discovery. My work emphasizes
+<p> I am a computational chemist with a strong focus on physics-based modeling and AI-assisted decision making in drug discovery. My work emphasizes
 reproducible pipelines, rigorous validation, and interpretable results that can meaningfully support medicinal chemistry and project decisions.
 </p>
 
