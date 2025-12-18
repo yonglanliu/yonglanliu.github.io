@@ -2,15 +2,19 @@
 layout: home
 ---
 
-Welcome 👋  
+## Yonglan Liu, Ph.D.
+**Computational Chemist | Free Energy Methods | AI for Drug Discovery**
 
-I am a computational chemist focusing on:
-- Free Energy Perturbation (FEP / RBFE / ABFE)
-- Molecular Dynamics (OpenMM, NAMD, CHARMM)
-- AI & Cheminformatics for Drug Discovery
+I design and validate **physics-based and AI-assisted computational pipelines**
+to support decision making in drug discovery, with a focus on:
 
-This blog documents my **independent and collaborative projects**, including:
-- OpenMM-based free energy pipelines
-- AI-driven virtual screening and ADME modeling
-- Fragment-based and structure-based drug design
+- Free energy calculations (hydration, ABFE)
+- Molecular dynamics (OpenMM, NAMD, CHARMM)
+- AI/ML for virtual screening and ADME prediction
 
+This site serves as a **technical portfolio and research notebook** documenting:
+- end-to-end pipeline design
+- validation strategies and diagnostics
+- future integration of AI with physics-based methods
+
+👉 Start with **[Projects](./projects/)** for a curated overview.
