@@ -9,11 +9,9 @@ layout: home
 <p style="font-size:1.1em; margin-top:0;">
 Computational Chemist | MD simulation| Virtual Screening | AI/Machine Learning for Drug Discovery
 </p>
-
-<p> I am a computational chemist with a strong focus on **physics-based modeling
-and AI-assisted decision making in drug discovery**. My work emphasizes
-**reproducible pipelines, rigorous validation, and interpretable results**
-that can meaningfully support medicinal chemistry and project decisions.
+---
+<p> I am a computational chemist with a strong focus on **physics-based modeling and AI-assisted decision making in drug discovery. My work emphasizes
+reproducible pipelines, rigorous validation, and interpretable results that can meaningfully support medicinal chemistry and project decisions.
 </p>
 
 ---
@@ -36,9 +34,7 @@ that can meaningfully support medicinal chemistry and project decisions.
 
 ---
 
-## This Site
-This GitHub Pages site serves as a **technical portfolio and research notebook**.
-It documents:
+This site serves as a **technical portfolio and research notebook**. It documents:
 - end-to-end pipeline design decisions
 - validation strategies for free energy calculations
 - exploratory work integrating AI with physics-based modeling
@@ -49,4 +45,4 @@ For a curated overview of my work, see the **[Projects](/projects/)** page.
 
 ## Links
 - GitHub: https://github.com/yonglanliu
-- LinkedIn: https://www.linkedin.com/in/yonglan-liu/
+- LinkedIn: https://www.linkedin.com/in/yonglan-liu-858284173/ 
