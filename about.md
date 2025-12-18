@@ -4,7 +4,7 @@ title: About
 ---
 
 ## About
-Computational Chemist focusing on molecular dynamics and AI for drug discovery.
+Computational Chemist focusing on physics-based and AI-based drug discovery.
 
 ## Contact
 - GitHub: https://github.com/yonglanliu
