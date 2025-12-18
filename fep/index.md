@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Free Energy Methods
+title: Free Energy Perturbation
 ---
 
 This section focuses on **alchemical free energy calculations**, including:
