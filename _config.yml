@@ -7,3 +7,11 @@ author:
   email: liuyonglan04@gmail.com
 
 markdown: kramdown
+
+header_pages:
+  - index.md
+  - projects/index.md
+  - fep/index.md
+  - ai-drug-discovery/index.md
+  - about.md
+
