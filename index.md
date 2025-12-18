@@ -2,7 +2,6 @@
 layout: home
 ---
 
-## Yonglan Liu, Ph.D.
 **Computational Chemist | Free Energy Methods | AI for Drug Discovery**
 
 I design and validate **physics-based and AI-assisted computational pipelines**
