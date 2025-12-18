@@ -2,7 +2,9 @@
 layout: home
 ---
 
-**Computational Chemist | Free Energy Methods | AI for Drug Discovery**
+<p style="font-size:1.2em; margin-top:-10px;">
+Computational Chemistry · Free Energy Methods · AI for Drug Discovery
+</p>
 
 I design and validate **physics-based and AI-assisted computational pipelines**
 to support decision making in drug discovery, with a focus on:
