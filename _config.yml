@@ -12,3 +12,5 @@ header_pages:
   - blog/index.md
   - about.md
 
+plugins:
+  - jekyll-mermaid
