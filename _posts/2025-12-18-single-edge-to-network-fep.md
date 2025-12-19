@@ -1,113 +1,82 @@
 ---
-layout: Post
-title: "From Single-Edge FEP to Multi-Edge Ligand Networks: Free Energy Perturbation"
+layout: post
+title: "From Single-Edge FEP to Multi-Edge Ligand Networks: Understanding Modern Free Energy Perturbation"
 date: 2025-12-18
+tags: [FEP, RBFE, free-energy, drug-discovery, computational-chemistry]
 ---
 
-> This post documents my own journey from writing a simple one-edge FEP script in OpenMM  
-> to understanding how modern industrial workflows (OpenFE, FEP+) use **ligand networks**  
-> to scale relative binding free energy (RBFE) calculation to dozens of ligands.
+Free Energy Perturbation (FEP) has evolved dramatically in the last decade. Where early alchemical calculations focused on **single A→B transformations**, modern drug discovery now relies on **multi-edge ligand networks** that scale to entire ligand series.
 
-Over the past few months, I have been building my own OpenMM-based free energy pipeline.  
-At first, everything was centered around **one transformation**:
-                    Ligand A → Ligand B
+This article summarizes my understanding of:
 
-That is the classic **single-edge** free energy perturbation (FEP).  
-It works beautifully for hydration ΔG or small pairwise relative free energies.
-
-But once I began studying real RBFE workflows—Schrödinger FEP+, OpenFE, Perses—it became clear:
-
-> Modern RBFE is not about a single A→B transformation.  
-> It is about building a **ligand mutation network (graph)**  
-> and using many small, stable edges to compute ΔG for an entire ligand series.
-
-This blog post introduces that transition step by step:
-
-1. What single-edge FEP actually computes  
-2. Why single-edge is not enough for drug discovery  
-3. What a ligand network is (with diagrams)  
-4. How a single-edge pipeline evolves into a network-based RBFE engine  
-5. How this relates to OpenFE and industrial workflows
-
+- What single-edge FEP really is  
+- Why single-edge approaches cannot scale  
+- What a ligand network is (conceptually and mathematically)  
+- Why Relative Binding Free Energy (RBFE) frameworks rely on networks  
+- Which tools implement ligand networks today  
+- How to practically run network-based FEP in real drug discovery projects
 ---
 
-# 1. Single-Edge FEP: The Minimal Unit
+# 1. Single-Edge FEP: The Classical Perspective
+A traditional alchemical calculation transforms:
+          **Ligand A → Ligand B**
 
-Let’s start with the simplest alchemical calculation:  
-**transforming ligand A into ligand B**.
-A → B
+using two thermodynamic legs:
+1. **Complex leg:** A→B inside the protein binding site  
+2. **Solvent leg:** A→B in water  
 
-This requires two legs:
-
-- **complex leg**: `protein + A → protein + B`
-- **solvent leg**: `A in water → B in water`
-
-Then:
+The relative binding free energy is:
 
 \[
-\Delta\Delta G = \Delta G_{\text{complex}} - \Delta G_{\text{solvent}}
+\Delta\Delta G_{\text{binding}} = 
+\Delta G_{\text{complex}} - \Delta G_{\text{solvent}}
 \]
 
-**ASCII diagram:**
+Single-edge FEP is extremely useful for:
 
-Complex:
-[ Protein + A ] -- ΔG_complex --> [ Protein + B ]
+- Hydration free energies  
+- Host–guest systems  
+- Small methodological benchmarks  
+- Pairwise ligand comparisons  
 
-Solvent:
-[ A in water ] -- ΔG_solvent --> [ B in water ]
-
-Final:
-ΔΔG = ΔG_complex - ΔG_solvent
-
-My personal OpenMM pipeline already handles this:
-
-- system building  
-- minimization + equilibration  
-- lambda schedule  
-- MD propagation  
-- BAR/MBAR analysis  
-
-This works well—but it is still **one edge**.
+However, single-edge calculations do **not** scale to medicinal chemistry campaigns.
 
 ---
 
-# 2. Why Single-Edge FEP Is Not Enough
+# 2. Why Single-Edge FEP Fails for Drug Discovery
 
-In real drug discovery projects, you rarely have “A and B”.  
-You have something like:
+Real-world ligand series contain:
 
-\[
-L_1, L_2, L_3, \ldots, L_{20}
-\]
+- 10, 20, sometimes 100+ analogs  
+- Diverse scaffolds and R-group patterns  
+- Non-trivial mapping relationships  
+- Large chemistry jumps that do not mutate smoothly
 
-If you try to evaluate all ligands using single-edge FEP:
+If we attempted single-edge FEP naively:
 
-- you must decide manually which pairs to transform  
-- some mutations are too large to converge  
-- number of possible pairs scales as \(O(N^2)\)  
-- you lose the advantage of comparing “similar ligands”
+- Pairwise combinations grow as \(O(N^2)\)  
+- Many ligand pairs are **too dissimilar** to mutate directly  
+- Transformations become unstable  
+- Sampling cost becomes prohibitive  
+- No cycle-closure diagnostics are possible  
+- No systematic way to evaluate the entire ligand series
 
-In practice, drug discovery teams want:
+In practice:
 
-- fast evaluation of a whole ligand series  
-- stability  
-- cycle closure checking (self-consistency)  
-- ability to choose the best growing direction for hit-to-lead
+> Drug discovery requires a *system-level* approach — not isolated A→B comparisons.
 
-This is where single-edge FEP collapses.
-
-The solution is **ligand networks**.
+This leads naturally to **ligand networks**.
 
 ---
 
-# 3. Ligand Networks: Nodes, Edges, Graphs
+# 3. Ligand Networks: The Modern RBFE Paradigm
 
-A ligand network is simply a graph:
+A ligand network is a **graph** where:
 
-- **nodes = ligands**  
-- **edges = alchemical transformations**  
+- **Nodes = ligands**  
+- **Edges = alchemical transformations**
 
-Here is a minimal example with four ligands:
+Example of a simple network:
 
 ```mermaid
 graph LR
@@ -115,27 +84,4 @@ graph LR
     L2 --- L3
     L3 --- L4
     L1 --- L4
-What this means:
-
-Each line (edge) is one FEP calculation (A→B).
-
-The graph connects similar ligands first (easy transformations).
-
-Once all edges are computed, you can reconstruct
-relative binding free energies for all ligands simultaneously.
-
-Why networks work:
-
-Avoid large transformations
-
-Ligands mutate only to similar ligands → faster convergence
-
-Cycle closure
-
-If L1→L2→L3→L4→L1 ≈ 0
-
-
-
-
-
-
+```
