@@ -2,7 +2,6 @@
 layout: Post
 title: "From Single-Edge FEP to Multi-Edge Ligand Networks: Free Energy Perturbation"
 date: 2025-12-18
-tags: [free-energy, alchemical, FEP, RBFE, OpenMM, OpenFE, computational-chemistry]
 ---
 
 > This post documents my own journey from writing a simple one-edge FEP script in OpenMM  
