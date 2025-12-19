@@ -28,7 +28,14 @@ using two thermodynamic legs:
 
 The relative binding free energy is:
 
-$\Delta G_{\text{bind}} = \Delta G_{\text{complex}} - \Delta G_{\text{solvent}} + \Delta G_{\text{restraints}}$
+$$
+\Delta\Delta G_{\text{binding}}
+=
+\Delta G_{\text{complex}}
+-
+\Delta G_{\text{solvent}}
+$$
+
 ---
 Single-edge FEP is extremely useful for:
 
