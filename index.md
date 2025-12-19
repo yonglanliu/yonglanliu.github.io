@@ -1,5 +1,6 @@
 ---
 layout: home
+permalink: /home/
 ---
 
 <p style="font-size:1.25em; margin-bottom:0;">
