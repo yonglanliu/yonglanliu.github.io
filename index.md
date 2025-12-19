@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: Home
 ---
 
 <p style="font-size:1.25em; margin-bottom:0;">
