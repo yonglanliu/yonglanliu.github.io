@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "From Single-Edge FEP to Multi-Edge Ligand Networks: Building a Modern Free Energy Pipeline"
+title: "From Single-Edge FEP to Multi-Edge Ligand Networks: Free Energy Perturbation"
 date: 2025-12-18
 tags: [free-energy, alchemical, FEP, RBFE, OpenMM, OpenFE, computational-chemistry]
 ---
@@ -135,54 +135,7 @@ Cycle closure
 
 If L1→L2→L3→L4→L1 ≈ 0
 
-The network is self-consistent
 
-Global fit
-
-You can choose any ligand as reference:
-
-Δ
-𝐺
-bind
-(
-𝐿
-𝑖
-)
-−
-Δ
-𝐺
-bind
-(
-𝐿
-ref
-)
-ΔG
-bind
-	​
-
-(L
-i
-	​
-
-)−ΔG
-bind
-	​
-
-(L
-ref
-	​
-
-)
-
-This is exactly what industrial platforms do:
-
-Schrödinger FEP+
-
-OpenFE
-
-Perses (OpenMM-based)
-
-NAMD/AMBER RBFE workflows
 
 
 
