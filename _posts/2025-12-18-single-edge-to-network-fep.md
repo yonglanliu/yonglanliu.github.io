@@ -38,7 +38,8 @@ Single-edge FEP is extremely useful for:
 - Hydration free energies  
 - Host–guest systems  
 - Small methodological benchmarks  
-- Pairwise ligand comparisons  
+- Pairwise ligand comparisons
+
 ---
 
 # 2. Single-edge calculations do **not** scale to medicinal chemistry campaigns
