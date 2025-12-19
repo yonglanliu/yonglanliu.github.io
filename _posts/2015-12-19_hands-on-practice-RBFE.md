@@ -30,7 +30,7 @@ For Relative Binding Free Energy (RBFE) or Alchemical Free Energy Perturbation (
    * Environment: Ligand + Solvent (Water)
      
 The final Relative Binding Free Energy **($\Delta \Delta G_{\text{binding}}$)** is then calculated as the difference between these two legs:
-<center>$$\Delta \Delta G_{\text{binding}} = \Delta G_{\text{complex}} - \Delta G_{\text{solvation}}$$</center>
+<center>$\Delta \Delta G_{\text{binding}} = \Delta G_{\text{complex}} - \Delta G_{\text{solvation}}$</center>
 
 ---
 
