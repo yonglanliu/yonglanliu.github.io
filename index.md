@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Yonglan Liu"
+title: "home"
 ---
 
 Welcome to my blog on computational chemistry, free energy calculations (FEP/RBFE), and AI for drug discovery.
