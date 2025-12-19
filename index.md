@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "home"
+title: "Home"
 ---
 
 <p style="font-size:1.25em; margin-bottom:0;">
