@@ -54,3 +54,4 @@ To calculate the $\Delta G$ for each leg, we use rigorous molecular simulation m
 Both methods are statistically rigorous, but FEP coupled with BAR/MBAR is often favored in high-throughput campaigns due to its efficiency and robustness in sampling discrete states.
 
 ---
+This short video explains the core value of Free Energy Perturbation in the context of lead optimization in drug discovery. [The value of Free Energy Perturbation (FEP) predictions]9https://www.youtube.com/watch?v=Tgz2I8Tg34w&t=10s)
