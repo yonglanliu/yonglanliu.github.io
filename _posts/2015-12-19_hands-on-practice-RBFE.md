@@ -28,8 +28,9 @@ For Relative Binding Free Energy (RBFE) or Alchemical Free Energy Perturbation (
 2. Solvation Leg **($\Delta G_{\text{solvation}}$)**
    * Goal: Calculate the free energy change **($\Delta G$)** for the alchemical transformation of Ligand A into Ligand B while the **ligands are free in the solvent**.
    * Environment: Ligand + Solvent (Water)
+     
 The final Relative Binding Free Energy **($\Delta \Delta G_{\text{binding}}$)** is then calculated as the difference between these two legs:
-$$\Delta \Delta G_{\text{binding}} = \Delta G_{\text{complex}} - \Delta G_{\text{solvation}}$$
+<center>$$\Delta \Delta G_{\text{binding}} = \Delta G_{\text{complex}} - \Delta G_{\text{solvation}}$$</center>
 
 ---
 
