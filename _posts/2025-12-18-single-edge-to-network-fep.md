@@ -36,6 +36,7 @@ $$
 \Delta G_{\text{solvent}}
 $$
 
+
 Single-edge FEP is extremely useful for:
 
 - Hydration free energies  
