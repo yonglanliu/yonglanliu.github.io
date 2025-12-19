@@ -29,19 +29,16 @@ using two thermodynamic legs:
 The relative binding free energy is:
 
 $\Delta G_{\text{bind}} = \Delta G_{\text{complex}} - \Delta G_{\text{solvent}} + \Delta G_{\text{restraints}}$
-
+---
 Single-edge FEP is extremely useful for:
 
 - Hydration free energies  
 - Host–guest systems  
 - Small methodological benchmarks  
 - Pairwise ligand comparisons  
-
-However, single-edge calculations do **not** scale to medicinal chemistry campaigns.
-
 ---
 
-# 2. Why Single-Edge FEP Fails for Drug Discovery
+# 2. Single-edge calculations do **not** scale to medicinal chemistry campaigns
 
 Real-world ligand series contain:
 
@@ -52,7 +49,7 @@ Real-world ligand series contain:
 
 If we attempted single-edge FEP naively:
 
-- Pairwise combinations grow as \(O(N^2)\)  
+- Pairwise combinations grow as $O(N^2)$ 
 - Many ligand pairs are **too dissimilar** to mutate directly  
 - Transformations become unstable  
 - Sampling cost becomes prohibitive  
