@@ -23,7 +23,7 @@ Whether you are running virtual screening, molecular docking, classical MD, or r
 the choice of charge model directly affects electrostatics, hydrogen bonding, solvation, and ultimately your predicted affinities.
 
 This post provides a practical, workflow-oriented overview of partial charge assignment for small molecules, with concrete recommendations 
-for **docking vs. free-energy calculations**, and explains how popular tools such as **RDKit** and **[AmberTools](https://ambermd.org/AmberTools.php)** fit into modern pipelines.
+for **docking vs. free-energy calculations**, and explains how popular tools such as **[RDKit](https://www.rdkit.org/docs/)** and **[AmberTools](https://ambermd.org/AmberTools.php)** fit into modern pipelines.
 
 ### Why partial charges matter
 In classical force fields, electrostatic interactions are modeled using fixed partial charges assigned to atoms. These charges are meant to represent the average electron distribution in a molecule and strongly influence:
@@ -34,6 +34,8 @@ In classical force fields, electrostatic interactions are modeled using fixed pa
 
 Because electrostatics contribute significantly to **ΔG of binding**, an inconsistent or low-quality charge model can easily dominate the error 
 budget — especially in **FEP/RBFE**, where small energy differences are amplified.
+
+---
 
 ### Common charge models for small molecules
 
@@ -163,6 +165,8 @@ The traditional RESP workflow involves:
 1. QM ESP calculation (e.g., HF/6-31G*)
 2. Two-stage restrained fitting using AmberTools
 RESP is often overkill for routine FEP but invaluable for edge cases.
+
+---
 
 #### Docking vs. FEP: what should you use?
 The most common mistake is using the same charge model for docking and free-energy calculations. These tasks have very different requirements.
