@@ -112,3 +112,51 @@ antechamber -i ligand.sdf -fi sdf \
             -o ligand.mol2 -fo mol2 \
             -c bcc -nc 0
 ```
+For most RBFE workflows, AM1-BCC is the correct default choice.
+
+#### 5. RESP charges
+
+**RESP (Restrained Electrostatic Potential)** charges are derived by fitting atomic charges to reproduce a **quantum-mechanical electrostatic potential**.
+* **Accuracy**: Very high
+* **Cost**: Expensive (QM calculation required)
+* **Typical use**: High-accuracy MD, challenging chemotypes
+RESP is particularly useful when:
+* The molecule has unusual charge delocalization
+* Metal coordination is involved
+* Publication-grade accuracy is required
+The traditional RESP workflow involves:
+1. QM ESP calculation (e.g., HF/6-31G*)
+2. Two-stage restrained fitting using AmberTools
+RESP is often overkill for routine FEP but invaluable for edge cases.
+
+#### Docking vs. FEP: what should you use?
+The most common mistake is using the same charge model for docking and free-energy calculations. These tasks have very different requirements.
+*Docking / virtual screening*
+
+Recommended: Gasteiger
+* Fast
+* Widely supported
+* Consistent with scoring functions
+Docking scores are approximate by nature; the marginal gain from higher-level charges rarely justifies the cost.
+
+#### MD / RBFE / FEP
+Recommended: AM1-BCC
+Alternative: RESP (when needed)
+For free-energy calculations:
+* Electrostatics must be physically meaningful
+* Charges must be consistent across alchemical transformations
+* Mixing charge models across ligands will destroy convergence
+* Using Gasteiger charges in FEP is almost guaranteed to produce noisy, unreliable ΔG values.
+
+### Practical recommendations
+
+Rule of thumb:
+
+|Task	| Charge model|
+|-----|-------------|
+|Docking / VS	|Gasteiger|
+|Classical MD	|AM1-BCC |
+|RBFE / FEP	| AM1-BCC|
+|High-accuracy studies	|RESP |
+
+This full code for partial charge assignment can be found in my [this repository]()
