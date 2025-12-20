@@ -95,7 +95,7 @@ UFF is useful for initial geometry minimization, not electrostatics.
 
 * **Accuracy**: Close to RESP for many drug-like molecules
 
-* **Cost*: Low
+* **Cost**: Low
 
 * **Typical use**: MD, RBFE/FEP
 
@@ -112,7 +112,33 @@ antechamber -i ligand.sdf -fi sdf \
             -o ligand.mol2 -fo mol2 \
             -c bcc -nc 0
 ```
-For most RBFE workflows, AM1-BCC is the correct default choice.
+Using the [OpenFF](https://github.com/openforcefield/openff-toolkit) workflow to assign AM1-BCC charge. **OpenFF**
+```bash
+import openmm.app as app
+from openmmforcefields.generators import GAFFTemplateGenerator
+forcefield = app.ForceField("amber14/tip3p.xml")
+gaff = GAFFTemplateGenerator(molecules=[offmol], forcefield="gaff-2.11")
+forcefield.registerTemplateGenerator(gaff.generator)
+```
+GAFFTemplateGenerator (from openmmforcefields) uses AmberTools (antechamber/parmchk2) to:
+* assign GAFF atom types
+* compute AM1-BCC partial charges (default behavior for this generator)
+* generate parameters/templates injected into the OpenMM ForceField
+
+Then forcefield.createSystem(...) builds the OpenMM System using those parameters, including the ligand charges.
+
+**How to confirm charges are present (quick check)**
+After system = forcefield.createSystem(...), you can inspect the NonbondedForce:
+```bash
+from openmm import NonbondedForce
+
+nb = next(f for f in system.getForces() if isinstance(f, NonbondedForce))
+charges = [nb.getParticleParameters(i)[0].value_in_unit(unit.elementary_charge)
+           for i in range(system.getNumParticles())]
+
+print("Total charge:", sum(charges))
+print("First 10 charges:", charges[:10])
+```
 
 #### 5. RESP charges
 
