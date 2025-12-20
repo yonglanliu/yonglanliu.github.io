@@ -16,34 +16,18 @@ description: "A practical, step-by-step tutorial for performing Relative Binding
 
 This post presents a **hands-on, step-by-step workflow** for performing **Relative Binding Free Energy (RBFE)** calculations using **OpenFE**.  
 The focus is on practical implementation, reproducibility, and methodological clarity for applications in **structure-based drug discovery**.
+The fundamental of RBFE can be found in my another blog [Introduction to Alchemical Free Energy Calculation: FEP and TI for RBFE](https://yonglanliu.github.io/2025/12/19/RBFE.html)
+---
 
 The workflow covers the complete RBFE pipeline, from ligand preparation to result analysis.
-Simplified Workflow for Ligand Processing in RBFE
-Generate Ligand Conformations & Tautomers: Ensure you have the correct protonation states and low-energy 3D structures.
-
-Charge and Parameterize Ligands: Assign force field parameters, including partial atomic charges, to every ligand.
-
-Perform Atom Mapping: Use an algorithm (like Lomap or a geometric mapper) to find the MCS and the transformation path (the alchemical edge) for each pair of ligands.
-
-Build the Alchemical Network: Connect all mapped pairs into a network that forms a thermodynamic cycle.
-
-Setup and Run Simulations: Solvate the systems (ligand in complex, ligand in solvent) and run the molecular dynamics simulations.
+**Simplified Workflow** for Ligand Processing in RBFE
+1. Generate Ligand Conformations & Tautomers: Ensure you have the correct protonation states and low-energy 3D structures.
+2. Charge and Parameterize Ligands: Assign force field parameters, including partial atomic charges, to every ligand.
+3. Perform Atom Mapping: Use an algorithm (like Lomap or a geometric mapper) to find the MCS and the transformation path (the alchemical edge) for each pair of ligands.
+4. Build the Alchemical Network: Connect all mapped pairs into a network that forms a thermodynamic cycle.
+5. Setup and Run Simulations: Solvate the systems (ligand in complex, ligand in solvent) and run the molecular dynamics simulations.
 ---
-## ⚛️Alchemical Free Energy Calculations
-For Relative Binding Free Energy (RBFE) or Alchemical Free Energy calculations, two alchemical legs of transformation must be performed to complete the thermodynamic cycle:
-1. Complex Leg **($\Delta G_{\text{complex}}$)**
-   * Goal: Calculate the free energy change **($\Delta G$)** for the alchemical transformation of Ligand A into Ligand B while the **ligands are bound to the protein target**.
-   * Environment: Ligand + Target (Protein) + Solvent (Water)
-2. Solvation Leg **($\Delta G_{\text{solvation}}$)**
-   * Goal: Calculate the free energy change **($\Delta G$)** for the alchemical transformation of Ligand A into Ligand B while the **ligands are free in the solvent**.
-   * Environment: Ligand + Solvent (Water)
-     
-The final Relative Binding Free Energy **($\Delta \Delta G_{\text{binding}}$)** is then calculated as the difference between these two legs:
 
-$$\Delta \Delta G_{\text{binding}} = 
-\Delta G_{\text{complex}} - 
-\Delta G_{\text{solvation}}$$
----
 
 ## ⚛️ Two methods can be used for Alchemical Free Energy Calculations
 1. Free Energy Perturbation (FEP)
