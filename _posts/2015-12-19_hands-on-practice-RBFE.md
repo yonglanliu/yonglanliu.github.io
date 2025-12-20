@@ -18,7 +18,16 @@ This post presents a **hands-on, step-by-step workflow** for performing **Relati
 The focus is on practical implementation, reproducibility, and methodological clarity for applications in **structure-based drug discovery**.
 
 The workflow covers the complete RBFE pipeline, from ligand preparation to result analysis.
+Simplified Workflow for Ligand Processing in RBFE
+Generate Ligand Conformations & Tautomers: Ensure you have the correct protonation states and low-energy 3D structures.
 
+Charge and Parameterize Ligands: Assign force field parameters, including partial atomic charges, to every ligand.
+
+Perform Atom Mapping: Use an algorithm (like Lomap or a geometric mapper) to find the MCS and the transformation path (the alchemical edge) for each pair of ligands.
+
+Build the Alchemical Network: Connect all mapped pairs into a network that forms a thermodynamic cycle.
+
+Setup and Run Simulations: Solvate the systems (ligand in complex, ligand in solvent) and run the molecular dynamics simulations.
 ---
 ## ⚛️Alchemical Free Energy Calculations
 For Relative Binding Free Energy (RBFE) or Alchemical Free Energy calculations, two alchemical legs of transformation must be performed to complete the thermodynamic cycle:
