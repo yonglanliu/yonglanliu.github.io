@@ -13,6 +13,10 @@ tags:
  - computational-chemistry
 ---
 
+## Code Availability
+This full code for partial charge assignment can be found in my [this repository]()
+
+---
 ### Partial charge assignment for small molecules
 Partial atomic charges are one of the most deceptively simple — and critically important — components of small-molecule modeling. 
 Whether you are running virtual screening, molecular docking, classical MD, or relative binding free energy (RBFE/FEP) calculations, 
@@ -106,29 +110,34 @@ AM1-BCC charges are:
 * Fast enough for large ligand series
 
 * Widely used in industry FEP pipelines
-They are typically generated using AmberTools antechamber:
+They are typically generated using AmberTools antechamber (Make sure you've already install [AmberTools](https://ambermd.org/AmberTools.php)):
+
 ```bash
 antechamber -i ligand.sdf -fi sdf \
             -o ligand.mol2 -fo mol2 \
             -c bcc -nc 0
 ```
-Using the [OpenFF](https://github.com/openforcefield/openff-toolkit) workflow to assign AM1-BCC charge. **OpenFF**
-```bash
-import openmm.app as app
-from openmmforcefields.generators import GAFFTemplateGenerator
-forcefield = app.ForceField("amber14/tip3p.xml")
-gaff = GAFFTemplateGenerator(molecules=[offmol], forcefield="gaff-2.11")
-forcefield.registerTemplateGenerator(gaff.generator)
-```
-GAFFTemplateGenerator (from openmmforcefields) uses AmberTools (antechamber/parmchk2) to:
+Using the [OpenFF](https://github.com/openforcefield/openff-toolkit) workflow to assign AM1-BCC charge. 
+
+**OpenFF** GAFFTemplateGenerator (from openmmforcefields) uses AmberTools (antechamber/parmchk2) to:
 * assign GAFF atom types
 * compute AM1-BCC partial charges (default behavior for this generator)
 * generate parameters/templates injected into the OpenMM ForceField
 
 Then forcefield.createSystem(...) builds the OpenMM System using those parameters, including the ligand charges.
 
+```bash
+from openff.toolkit import Molecule
+from openmmforcefields.generators import GAFFTemplateGenerator
+
+mol = Molecule.from_file(mol_sdf)  # Read molecules from file
+gaff = GAFFTemplateGenerator(molecules=[mol], forcefield="gaff-2.11")
+```
+
 **How to confirm charges are present (quick check)**
+
 After system = forcefield.createSystem(...), you can inspect the NonbondedForce:
+
 ```bash
 from openmm import NonbondedForce
 
@@ -185,4 +194,3 @@ Rule of thumb:
 |RBFE / FEP	| AM1-BCC|
 |High-accuracy studies	|RESP |
 
-This full code for partial charge assignment can be found in my [this repository]()
