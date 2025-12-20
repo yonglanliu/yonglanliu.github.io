@@ -17,6 +17,7 @@ description: "A practical, step-by-step tutorial for performing Relative Binding
 This post presents a **hands-on, step-by-step workflow** for performing **Relative Binding Free Energy (RBFE)** calculations using **OpenFE**.  
 The focus is on practical implementation, reproducibility, and methodological clarity for applications in **structure-based drug discovery**.
 The fundamental of RBFE can be found in my another blog [Introduction to Alchemical Free Energy Calculation: FEP and TI for RBFE](https://yonglanliu.github.io/2025/12/19/RBFE.html)
+
 ---
 
 The workflow covers the complete RBFE pipeline, from ligand preparation to result analysis.
