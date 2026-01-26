@@ -1,5 +1,5 @@
 cv:
-  name: Albert Einstein
+  name: Yonglan Liu
   label: Scientist
   email: einstein@example.com
   location: Princeton, NJ
@@ -23,93 +23,80 @@ cv:
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: The University of Akron
+        location: Akron, OH, USA
+        # url: https://www.uzh.ch/
+        area: Chemical Engineering
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        start_date: 01/2017
+        end_date: 05/2021
+        # score: ""
+        # courses: "Theory of Relativity"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Built computational chemistry and biology pipelines to model protein–protein, protein–ligand, protein–membrane, and peptide interactions, supporting small-molecule and peptide-based therapeutic design.
+          - Applied molecular docking and MD simulations to characterize binding mechanisms and conformational behavior, guiding structure- and sequence-level optimization.
+          - Developed ML/AI models to predict sequence/structure–property relationships for peptides, small molecules, and biofunctional materials, working closely with experimental collaborators for validation.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Chongqing University
+        location: Chongqing, Chongqing, China
+        area: Bioengineering
+        studyType: BS
+        start_date: 09/2010
+        end_date: 06/2014
+        # highlights:
+        #   - Description 1.
+        #   - Description 2.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Guidehouse
+        position: Senior Technical Analyst | Computational Chemist
+        location: Bethesda, MD, US
+        start_date: 03/2025
+        end_date: present
+        summary: Senior Technical Analyst at Guidehouse and serving as a Computational Chemist at NIH, leverage different computational technicals for drug discovery
+          - Led the design and operationalization of integrated, end-to-end discovery workflows combining docking, MD-based refinement, alchemical free energy perturbation (FEP), and ML-driven developability prediction to guide compound prioritization across NIH-funded programs.
+          - Owned the architecture and reproducibility standards for alchemical FEP pipelines using OpenMM and MBAR, enabling quantitative protein–ligand binding affinity prediction and decision support for structure-based lead optimization.
+          - Curated and analyzed target-focused chemical libraries to support iterative design–test–learn cycles, partnering with medicinal chemists to leverage free-energy–informed SAR analysis for hypothesis refinement and compound selection.
+          - Applied structure-based, ligand-based, and fragment-based design strategies to manage trade-offs among potency, selectivity, and developability constraints.
+          - Served as a technical bridge between computation and experimental teams, translating FEP trends, MD-derived conformational insights, virtual screening, and machine learning results into actionable hypotheses that directly informed synthesis and experimental prioritization.
+
+      - company: National Cancer Institute, National Institute of Health
+        position: Postdoctoral Fellow | Research Fellow
+        location: Frederic, MD, US
+        start_date: 05/2021
+        end_date: 02/2025
         highlights:
-          - Relativity
-          - Description 2.
+          - Independently led multiple structure- and mechanism-driven discovery efforts in cancer signaling, driving hypothesis formation, computational strategy, and interpretation across protein–ligand and protein–protein interaction systems.
+          - Developed reusable computational pipelines integrating MD-based conformational sampling with free-energy analyses (MM/GBSA, FEP) to enable systematic evaluation across multiple targets and ligand series.
+          - Identified cryptic and allosteric binding pockets via MD-driven conformational exploration, informing inhibitor and PROTAC design strategies.
+          - Applied AI-based protein structure prediction tools (AlphaFold, RoseTTAFold) to generate working models for proteins and protein–protein complexes in the absence of experimental structures, enabling downstream modeling and interaction analysis.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+    # Volunteer:
+    #   - company: People's Climate March
+    #     position: Lead Organizer
+    #     location: Zurich, Switzerland
+    #     start_date: 2014-04-01
+    #     end_date: 2015-07-01
+    #     summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+    #     highlights:
+    #       - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+    #       - "Men of the year 2014 by Time magazine"
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+    # Awards:
+    #   - title: Nobel Prize in Physics
+    #     authors:
+    #       - "Royal Swedish Academy of Sciences"
+    #     date: 1921-11-01
+    #     awarder: Royal Swedish Academy of Sciences
+    #     url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+    #     summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+    #   - title: Max Planck Medal
+    #     authors:
+    #       - "German Physical Society"
+    #     date: 2029
+    #     awarder: German Physical Society
+    #     summary: Awarded for outstanding scientific achievement
 
     Publications:
       - title: Zur Elektrodynamik bewegter Körper
@@ -155,35 +142,52 @@ cv:
         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
+      - name: Data Scientist
+        #date: 2018-01-01
+        issuer: Dataquest
         icon: fa-solid fa-location-dot
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
+      - name: Natural Language Processing (NLP) with Attention Models
+        #date: 2018-01-01
+        issuer: Coursera
         icon: fa-solid fa-tag
 
-      - name: Quantum Information
+      - name: Natural Language Processing (NLP) with Probabilistic Models
         date: 2018-01-01
-        issuer: Stanford University
+        issuer: Coursera
+        icon: fa-solid fa-envelope
+        
+      - name: Natural Language Processing (NLP) with Sequence Models
+        #date: 2018-01-01
+        issuer: Coursera
+        icon: fa-solid fa-envelope
+
+      - name: Natural Language Processing (NLP) with Classification and Vector Spaces
+        #date: 2018-01-01
+        issuer: Coursera
+        icon: fa-solid fa-envelope
+
+      - name: Convolutional Neural Networks (CNN)
+        #date: 2018-01-01
+        issuer: Coursera
         icon: fa-solid fa-envelope
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: End-to-End Alchemical Free Energy Perturbation (FEP) Pipeline for Ligand Binding Affinity Prediction 
+        # summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Designed and implemented an end-to-end alchemical FEP pipeline using OpenMM, openmmtools, and MBAR, enabling automated prediction of ligand binding affinities in real protein–ligand discovery projects.
+          - Built a reproducible workflow covering protein preparation, ligand mapping, alchemical transformations, solvation, equilibration, production MD, and free energy analysis, supporting consistent and auditable computational decision-making.
+          - Developed Python utilities and a lightweight dashboard to visualize ΔΔG values, uncertainty estimates, and simulation QC metrics, enabling rapid compound comparison and prioritization across ligand series in real design cycles.
+          - Applied the pipeline to real medicinal chemistry use cases, demonstrating its value in guiding structure-based lead optimization and reducing reliance on heuristic scoring functions.
+        # start_date: 2018-01-01
+        # end_date: 2018-01-01
 
     References:
-      - name: Professor John Doe
+      - name: Professor Ruth Nussinov
         icon: fa-solid fa-laptop
         reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
 
-      - name: Professor Jane Smith
+      - name: Professor Jie Zheng
         icon: fa-solid fa-thumbtack
         reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
