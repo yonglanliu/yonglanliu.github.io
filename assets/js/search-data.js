@@ -72,15 +72,15 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-",
+            },{id: "post-equivariant-geometric-graph-neural-networks",
         
-          title: "",
+          title: "Equivariant Geometric Graph Neural Networks",
         
-        description: "",
+        description: "Equivariant Geometric Graph Neural Networks",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2018-12-22-distill/";
+            window.location.href = "/blog/2026/distill/";
           
         },
       },{id: "post-a-post-with-plotly-js",
