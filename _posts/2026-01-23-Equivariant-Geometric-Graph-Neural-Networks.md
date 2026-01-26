@@ -9,7 +9,7 @@ Most graph neural networks are formulated under the **message passing framework*
 For a given edge connecting two nodes, it is convenient to define a direction for information flow. Although molecular graphs are typically undirected, **message passing is implemented as two directed operations per edge** to simplify notation and computation. In this formulation, one node generates a message based on its current state, which is then sent to its neighbor and aggregated with other incoming messages.
 
 **We can consider node *j* as the message sender, while node *i* is the message receiver.** 
-![Figure 1. Message Passing In GNN](/assets/images/message_passing.png "Message Passing")
+![Figure 1. Message Passing In GNN](/assets/img/publication_preview/message_passing.png "Message Passing")
 This sender–receiver convention allows GNNs to model asymmetric interactions, incorporate edge features, and naturally extend to directed graphs and attention-based mechanisms.
 In physical systems, this perspective aligns with the idea that each atom contributes an interaction-dependent influence to its neighbors, which are then combined to determine the local environment of the receiving atom.
 
