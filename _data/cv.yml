@@ -6,18 +6,16 @@ cv:
   image: ""
   summary: Computational Chemist, Computational Structural Biologist, and AI Scientist with a hybrid background in machine learning, deep learning, and physics-based molecular modeling, molecular dynamics (MD) simulation for drug discovery, including protein/peptide and small molecules. I design and lead integrated physics- and ML-driven discovery platforms that connect molecular sequence and structure to functional and developability outcomes. Experienced in curating and governing large-scale chemical and biological datasets, building multimodal predictive and generative AI models, and partnering with experimental teams across medicinal chemistry, protein engineering, and structural biology to translate computational insight into concrete optimization hypotheses to guide synthesis and prioritization decisions across design–make–test–learn (DMTL) cycles.
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: yonglanliu
     - network: LinkedIn
-      username: example
+      username: yonglan-liu-858284173
 
   address:
-    street: 123 Main St
-    city: Frederick
+    street: 31 Center Dr
+    city: Bethesda
     region: Maryland
-    postalCode: MD 21701
+    postalCode: MD 20894
     countryCode: US
 
   sections:
@@ -27,8 +25,8 @@ cv:
         # url: https://www.uzh.ch/
         area: Chemical Engineering
         studyType: PhD
-        start_date: 01/2017
-        end_date: 05/2021
+        start_date: 2017-01
+        end_date: 2021-05
         # score: ""
         # courses: "Theory of Relativity"
         # highlights:
@@ -40,8 +38,8 @@ cv:
         location: Chongqing, China
         area: Bioengineering
         studyType: BS
-        start_date: 09/2010
-        end_date: 06/2014
+        start_date: 2010-09
+        end_date: 2014-06
         # highlights:
         #   - Description 1.
         #   - Description 2.
@@ -50,7 +48,7 @@ cv:
       - company: Guidehouse
         position: Senior Technical Analyst | Computational Chemist
         location: Bethesda, MD, US
-        start_date: 03/2025
+        start_date: 2025-03
         end_date: present
         summary: Senior Technical Analyst at Guidehouse and serving as a Computational Chemist at NIH, leverage different computational technicals for drug discovery.
         highlights:
@@ -63,8 +61,8 @@ cv:
       - company: National Cancer Institute, National Institute of Health
         position: Postdoctoral Fellow | Research Fellow
         location: Frederic, MD, US
-        start_date: 05/2021
-        end_date: 02/2025
+        start_date: 2021-05
+        end_date: 2025-02
         highlights:
           - Independently led multiple structure- and mechanism-driven discovery efforts in cancer signaling, driving hypothesis formation, computational strategy, and interpretation across protein–ligand and protein–protein interaction systems.
           - Developed reusable computational pipelines integrating MD-based conformational sampling with free-energy analyses (MM/GBSA, FEP) to enable systematic evaluation across multiple targets and ligand series.
@@ -74,8 +72,8 @@ cv:
       - company: The University of Akron
         position: Research Assistant
         location: Akron, OH, US
-        start_date: 01/2017
-        end_date: 05/2021
+        start_date: 2017-01
+        end_date: 2021-05
         highlights:
           - Built computational chemistry and biology pipelines to model protein–protein, protein–ligand, protein–membrane, and peptide interactions, supporting small-molecule and peptide-based therapeutic design.
           - Applied molecular docking and MD simulations to characterize binding mechanisms and conformational behavior, guiding structure- and sequence-level optimization.
@@ -215,7 +213,7 @@ cv:
           - Built ML models to identify and design self-assembling peptides with anti-amyloid properties, targeting amyloid-related diseases including Alzheimer’s disease and type 2 diabetes.
           - Represented peptide physicochemical properties using NNAAIndex-based descriptors and performed feature analysis to identify determinants of aggregation behavior.
           - Trained and optimized SVM models (Python, GridSearchCV) to discriminate self-assembling versus non-assembling peptides.
-          - Collaborated with experimental teams to validate predictions, resulting in five confirmed peptides with strong anti-amyloid activity, including one patented peptide (Authorized patent: ZL201410100022.5). 
+          - Collaborated with experimental teams to validate predictions, resulting in five confirmed peptides with strong anti-amyloid activity, including one patented peptide [Authorized patent (ZL201410100022.5)].
       
       - name: Protein Kinase Structural Selectivity Analytics
         highlights:
