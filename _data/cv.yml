@@ -24,7 +24,7 @@ cv:
     Education:
       - institution: The University of Akrons
         location: Akron, OH, USA
-        url: https://www.uzh.ch/
+        # url: https://www.uzh.ch/
         area: Chemical Engineering
         studyType: PhD
         start_date: 01/2017
