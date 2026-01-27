@@ -1,11 +1,11 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Yonglan Liu",
+    "label": "Computational Chemist",
     "image": "",
-    "email": "einstein@example.com",
-    "phone": "(912) 123-4567",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "//email": "einstein@example.com",
+    "//phone": "(912) 123-4567",
+    "summary": "Computational Chemist, Computational Structural Biologist, and AI Scientist with a hybrid background in machine learning, deep learning, and physics-based molecular modeling, molecular dynamics (MD) simulation for drug discovery, including protein/peptide and small molecules. I design and lead integrated physics- and ML-driven discovery platforms that connect molecular sequence and structure to functional and developability outcomes. Experienced in curating and governing large-scale chemical and biological datasets, building multimodal predictive and generative AI models, and partnering with experimental teams across medicinal chemistry, protein engineering, and structural biology to translate computational insight into concrete optimization hypotheses to guide synthesis and prioritization decisions across design–make–test–learn (DMTL) cycles.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
