@@ -45,7 +45,18 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/Equivariant-Geometric-Graph-Neural-Networks.md/";
+            window.location.href = "/blog/2026/Equivariant-Geometric-Graph-Neural-Networks/";
+          
+        },
+      },{id: "post-alchemical-free-energy",
+        
+          title: "Alchemical Free Energy",
+        
+        description: "Understanding the two alchemical legs and primary methods (FEP, TI) required for rigorous Relative Binding Free Energy (RBFE) calculations.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/RBFE/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
@@ -68,17 +79,6 @@ ninja.data = [{
         handler: () => {
           
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/Machine-Learning/";
           
         },
       },{id: "books-the-godfather",
