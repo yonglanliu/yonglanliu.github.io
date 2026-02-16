@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-02-13'
+  last_updated: '2026-02-16'
 papers:
   eRfVtdwAAAAJ:08ZZubdj9fEC:
     citations: 5
     title: "SHP2\u2013EGFR States in Dephosphorylation Can Inform Selective SHP2 Inhibitors, Dampening RasGAP Action"
     year: '2024'
   eRfVtdwAAAAJ:0EnyYjriUFMC:
-    citations: 104
+    citations: 106
     title: "Genistein: a dual inhibitor of both amyloid \u03B2 and human islet amylin peptides"
     year: '2018'
   eRfVtdwAAAAJ:1sJd4Hv_s6UC:
-    citations: 27
+    citations: 28
     title: Strategy toward kinase-selective drug discovery
     year: '2023'
   eRfVtdwAAAAJ:2osOgNQ5qMEC:
@@ -22,7 +22,7 @@ papers:
     title: "Ginnalin A inhibits aggregation, reverses fibrillogenesis, and alleviates cytotoxicity of amyloid \u03B2 (1\u201342)"
     year: '2020'
   eRfVtdwAAAAJ:4TOpqqG69KYC:
-    citations: 20
+    citations: 22
     title: Molecular dynamics simulations of cholesterol effects on the interaction of hIAPP with lipid bilayer
     year: '2020'
   eRfVtdwAAAAJ:4fKUyHm3Qg0C:
@@ -42,11 +42,11 @@ papers:
     title: "Amyloid cross-seeding between A\u03B2 and hIAPP in relation to the pathogenesis of Alzheimer and type 2 diabetes"
     year: '2021'
   eRfVtdwAAAAJ:8AbLer7MMksC:
-    citations: 40
+    citations: 41
     title: 'Antifreezing hydrogels: from mechanisms and strategies to applications'
     year: '2025'
   eRfVtdwAAAAJ:9ZlFYXVOiuMC:
-    citations: 46
+    citations: 48
     title: A multiscale polymerization framework towards network structure and fracture of double-network hydrogels
     year: '2021'
   eRfVtdwAAAAJ:9yKSN-GCB0IC:
@@ -62,23 +62,23 @@ papers:
     title: "Activation mechanisms of clinically distinct B\u2010Raf V600E and V600K mutants"
     year: '2022'
   eRfVtdwAAAAJ:D03iK_w7-QYC:
-    citations: 61
+    citations: 63
     title: 'Allostery: allosteric cancer drivers and innovative allosteric drugs'
     year: '2022'
   eRfVtdwAAAAJ:EUQCXRtRnyEC:
-    citations: 27
+    citations: 26
     title: The structural basis of BCR-ABL recruitment of GRB2 in chronic myelogenous leukemia
     year: '2022'
   eRfVtdwAAAAJ:K3LRdlH-MEoC:
-    citations: 27
+    citations: 28
     title: Perspectives on theoretical models and molecular simulations of polymer brushes
     year: '2023'
   eRfVtdwAAAAJ:KlAtU1dfN6UC:
-    citations: 156
+    citations: 159
     title: Molecular simulations and understanding of antifouling zwitterionic polymer brushes
     year: '2020'
   eRfVtdwAAAAJ:LkGwnXOMwfcC:
-    citations: 44
+    citations: 45
     title: Thermo-responsive and shape-adaptive hydrogel actuators from fundamentals to applications
     year: '2019'
   eRfVtdwAAAAJ:M3ejUd6NZC8C:
@@ -86,7 +86,7 @@ papers:
     title: Introduction and fundamentals of human islet amyloid polypeptide inhibitors
     year: '2020'
   eRfVtdwAAAAJ:NhqRSupF_l8C:
-    citations: 19
+    citations: 18
     title: "Higher\u2010order interactions of Bcr\u2010Abl can broaden chronic myeloid leukemia (CML) drug repertoire"
     year: '2023'
   eRfVtdwAAAAJ:OU6Ihb5iCvQC:
@@ -94,11 +94,11 @@ papers:
     title: Application of an R-group search strategy into three-dimensional quantitative structure-activity relationship of HEA beta-secretase inhibitors and molecular virtual screening
     year: '2014'
   eRfVtdwAAAAJ:P5F9QuxV20EC:
-    citations: 94
+    citations: 95
     title: 'AlphaFold, allosteric, and orthosteric drug discovery: Ways forward'
     year: '2023'
   eRfVtdwAAAAJ:QIV2ME_5wuYC:
-    citations: 236
+    citations: 243
     title: Highly stretchable, self-adhesive, biocompatible, conductive hydrogels as fully polymeric strain sensors
     year: '2020'
   eRfVtdwAAAAJ:Tiz5es2fbqcC:
@@ -110,7 +110,7 @@ papers:
     title: Molecular simulation aspects of amyloid peptides at membrane interface
     year: '2018'
   eRfVtdwAAAAJ:UeHWp8X0CEIC:
-    citations: 52
+    citations: 51
     title: "Interaction of cinnamic acid derivatives with \u03B2-cyclodextrin in water: Experimental and molecular modeling studies"
     year: '2016'
   eRfVtdwAAAAJ:UebtZRa9Y70C:
@@ -134,15 +134,15 @@ papers:
     title: Tanshinones inhibit hIAPP aggregation, disaggregate preformed hIAPP fibrils, and protect cultured cells
     year: '2018'
   eRfVtdwAAAAJ:YOwf2qJgpHMC:
-    citations: 54
+    citations: 53
     title: "Design principles and fundamental understanding of biosensors for amyloid-\u03B2 detection"
     year: '2020'
   eRfVtdwAAAAJ:YsMSGLbcyi4C:
-    citations: 218
+    citations: 221
     title: "Super bulk and interfacial toughness of physically crosslinked double\u2010network hydrogels"
     year: '2017'
   eRfVtdwAAAAJ:Zph67rFs4hoC:
-    citations: 96
+    citations: 97
     title: Double-network physical cross-linking strategy to promote bulk mechanical and surface adhesive properties of hydrogels
     year: '2019'
   eRfVtdwAAAAJ:_FxGoFyzp5QC:
@@ -158,11 +158,11 @@ papers:
     title: "Cross-seeding between A\u03B2 and SEVI indicates a pathogenic link and gender difference between alzheimer diseases and AIDS"
     year: '2022'
   eRfVtdwAAAAJ:a0OBvERweLwC:
-    citations: 29
+    citations: 30
     title: The mechanism of activation of MEK1 by B-Raf and KSR1
     year: '2022'
   eRfVtdwAAAAJ:abG-DnoFyZgC:
-    citations: 187
+    citations: 186
     title: AlphaFold, artificial intelligence (AI), and allostery
     year: '2022'
   eRfVtdwAAAAJ:aqlVkmm33-oC:
@@ -190,11 +190,11 @@ papers:
     title: Insights into the adsorption of simple benzene derivatives on carbon nanotubes
     year: '2014'
   eRfVtdwAAAAJ:dfsIfKJdRG4C:
-    citations: 44
+    citations: 45
     title: "Antimicrobial \u03B1-defensins as multi-target inhibitors against amyloid formation and microbial infection"
     year: '2021'
   eRfVtdwAAAAJ:dhFuZR0502QC:
-    citations: 22
+    citations: 23
     title: Repurposing a cardiovascular disease drug of cloridarol as hIAPP inhibitor
     year: '2021'
   eRfVtdwAAAAJ:dshw04ExmUIC:
@@ -206,7 +206,7 @@ papers:
     title: Using topomer CoMFA and Surflex-dock to analyze 3D-QSAR of GSK-3inhibitors and their mechanism of action
     year: '2013'
   eRfVtdwAAAAJ:fPk4N6BV_jEC:
-    citations: 37
+    citations: 32
     title: Fundamentals and exploration of aggregation-induced emission molecules for amyloid protein aggregation
     year: '2022'
   eRfVtdwAAAAJ:geHnlv5EZngC:
@@ -214,7 +214,7 @@ papers:
     title: Distinct allosteric networks in CDK4 and CDK6 in the cell cycle and in drug resistance
     year: '2025'
   eRfVtdwAAAAJ:hqOjcs7Dif8C:
-    citations: 207
+    citations: 212
     title: Fundamentals and applications of zwitterionic antifouling polymers
     year: '2019'
   eRfVtdwAAAAJ:kNdYIx-mwKoC:
@@ -242,7 +242,7 @@ papers:
     title: Seed-induced heterogeneous cross-seeding self-assembly of human and rat islet polypeptides
     year: '2017'
   eRfVtdwAAAAJ:rO6llkc54NcC:
-    citations: 25
+    citations: 26
     title: "Design and engineering of amyloid aggregation\u2010prone fragments and their antimicrobial conjugates with multi\u2010target functionality"
     year: '2021'
   eRfVtdwAAAAJ:sSrBHYA8nusC:
@@ -254,15 +254,15 @@ papers:
     title: 'CDK2 and CDK4: cell cycle functions evolve distinct, catalysis-competent conformations, offering drug targets'
     year: '2024'
   eRfVtdwAAAAJ:tS2w5q8j5-wC:
-    citations: 32
+    citations: 33
     title: Exploring pathological link between antimicrobial and amyloid peptides
     year: '2024'
   eRfVtdwAAAAJ:u-x6o8ySG0sC:
-    citations: 31
+    citations: 30
     title: An index for characterization of natural and non-natural amino acids for peptidomimetics
     year: '2013'
   eRfVtdwAAAAJ:u5HHmVD_uO8C:
-    citations: 42
+    citations: 41
     title: Comprehensive 3D-QSAR and binding mode of BACE-1 inhibitors using R-group search and molecular docking
     year: '2013'
   eRfVtdwAAAAJ:u9iWguZQMMsC:
@@ -274,15 +274,15 @@ papers:
     title: 'Protein conformational ensembles in function: roles and mechanisms'
     year: '2023'
   eRfVtdwAAAAJ:u_35RYKgDlwC:
-    citations: 167
+    citations: 172
     title: A general crosslinker strategy to realize intrinsic frozen resistance of hydrogels
     year: '2021'
   eRfVtdwAAAAJ:ufrVoPGSRksC:
-    citations: 17
+    citations: 18
     title: Molecular dynamics simulation of the effect of carbon space lengths on the antifouling properties of hydroxyalkyl acrylamides
     year: '2019'
   eRfVtdwAAAAJ:vRqMK49ujn8C:
-    citations: 24
+    citations: 23
     title: Mitogen signaling strength and duration can control cell cycle decisions
     year: '2024'
   eRfVtdwAAAAJ:xtRiw3GOFMkC:
