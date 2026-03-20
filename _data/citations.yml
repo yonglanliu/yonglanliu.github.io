@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-03-09'
+  last_updated: '2026-03-20'
 papers:
   eRfVtdwAAAAJ:08ZZubdj9fEC:
-    citations: 5
+    citations: 6
     title: "SHP2\u2013EGFR States in Dephosphorylation Can Inform Selective SHP2 Inhibitors, Dampening RasGAP Action"
     year: '2024'
   eRfVtdwAAAAJ:0EnyYjriUFMC:
@@ -42,11 +42,11 @@ papers:
     title: "Amyloid cross-seeding between A\u03B2 and hIAPP in relation to the pathogenesis of Alzheimer and type 2 diabetes"
     year: '2021'
   eRfVtdwAAAAJ:8AbLer7MMksC:
-    citations: 54
+    citations: 56
     title: 'Antifreezing hydrogels: from mechanisms and strategies to applications'
     year: '2025'
   eRfVtdwAAAAJ:9ZlFYXVOiuMC:
-    citations: 49
+    citations: 50
     title: A multiscale polymerization framework towards network structure and fracture of double-network hydrogels
     year: '2021'
   eRfVtdwAAAAJ:9yKSN-GCB0IC:
@@ -54,7 +54,7 @@ papers:
     title: "A quantitative sequence\u2013aggregation relationship predictor applied as identification of self-assembled hexapeptides"
     year: '2015'
   eRfVtdwAAAAJ:B3FOqHPlNUQC:
-    citations: 12
+    citations: 13
     title: Binding modalities and phase-specific regulation of cyclin/cyclin-dependent kinase complexes in the cell cycle
     year: '2024'
   eRfVtdwAAAAJ:CHSYGLWDkRkC:
@@ -62,7 +62,7 @@ papers:
     title: "Activation mechanisms of clinically distinct B\u2010Raf V600E and V600K mutants"
     year: '2023'
   eRfVtdwAAAAJ:D03iK_w7-QYC:
-    citations: 64
+    citations: 65
     title: 'Allostery: allosteric cancer drivers and innovative allosteric drugs'
     year: '2022'
   eRfVtdwAAAAJ:EUQCXRtRnyEC:
@@ -94,7 +94,7 @@ papers:
     title: Application of an R-group search strategy into three-dimensional quantitative structure-activity relationship of HEA beta-secretase inhibitors and molecular virtual screening
     year: '2014'
   eRfVtdwAAAAJ:P5F9QuxV20EC:
-    citations: 97
+    citations: 98
     title: 'AlphaFold, allosteric, and orthosteric drug discovery: Ways forward'
     year: '2023'
   eRfVtdwAAAAJ:QIV2ME_5wuYC:
@@ -102,7 +102,7 @@ papers:
     title: Highly stretchable, self-adhesive, biocompatible, conductive hydrogels as fully polymeric strain sensors
     year: '2020'
   eRfVtdwAAAAJ:Tiz5es2fbqcC:
-    citations: 23
+    citations: 24
     title: The allosteric mechanism of mTOR activation can inform bitopic inhibitor optimization
     year: '2024'
   eRfVtdwAAAAJ:Tyk-4Ss8FVUC:
@@ -162,7 +162,7 @@ papers:
     title: The mechanism of activation of MEK1 by B-Raf and KSR1
     year: '2022'
   eRfVtdwAAAAJ:abG-DnoFyZgC:
-    citations: 193
+    citations: 196
     title: AlphaFold, artificial intelligence (AI), and allostery
     year: '2022'
   eRfVtdwAAAAJ:aqlVkmm33-oC:
@@ -170,7 +170,7 @@ papers:
     title: Dual amyloid cross-seeding reveals steric zipper-facilitated fibrillization and pathological links between protein misfolding diseases
     year: '2021'
   eRfVtdwAAAAJ:b0M2c_1WBrUC:
-    citations: 35
+    citations: 36
     title: Allosteric regulation of autoinhibition and activation of c-Abl
     year: '2022'
   eRfVtdwAAAAJ:bEWYMUwI8FkC:
@@ -206,15 +206,15 @@ papers:
     title: Using topomer CoMFA and Surflex-dock to analyze 3D-QSAR of GSK-3inhibitors and their mechanism of action
     year: '2013'
   eRfVtdwAAAAJ:fPk4N6BV_jEC:
-    citations: 32
+    citations: 33
     title: Fundamentals and exploration of aggregation-induced emission molecules for amyloid protein aggregation
     year: '2022'
   eRfVtdwAAAAJ:geHnlv5EZngC:
-    citations: 5
+    citations: 7
     title: Distinct allosteric networks in CDK4 and CDK6 in the cell cycle and in drug resistance
     year: '2025'
   eRfVtdwAAAAJ:hqOjcs7Dif8C:
-    citations: 213
+    citations: 214
     title: Fundamentals and applications of zwitterionic antifouling polymers
     year: '2019'
   eRfVtdwAAAAJ:kNdYIx-mwKoC:
@@ -222,7 +222,7 @@ papers:
     title: Computational investigation of antifouling property of polyacrylamide brushes
     year: '2020'
   eRfVtdwAAAAJ:l7t_Zn2s7bgC:
-    citations: 15
+    citations: 16
     title: Slower CDK4 and faster CDK2 activation in the cell cycle
     year: '2024'
   eRfVtdwAAAAJ:mVmsd5A6BfQC:
@@ -238,7 +238,7 @@ papers:
     title: Cell phenotypes can be predicted from propensities of protein conformations
     year: '2023'
   eRfVtdwAAAAJ:qjMakFHDy7sC:
-    citations: 36
+    citations: 37
     title: Seed-induced heterogeneous cross-seeding self-assembly of human and rat islet polypeptides
     year: '2017'
   eRfVtdwAAAAJ:rO6llkc54NcC:
@@ -250,11 +250,11 @@ papers:
     title: Machine learning aided design and optimization of antifouling surfaces
     year: '2024'
   eRfVtdwAAAAJ:tOudhMTPpwUC:
-    citations: 33
+    citations: 34
     title: 'CDK2 and CDK4: cell cycle functions evolve distinct, catalysis-competent conformations, offering drug targets'
     year: '2024'
   eRfVtdwAAAAJ:tS2w5q8j5-wC:
-    citations: 34
+    citations: 35
     title: Exploring pathological link between antimicrobial and amyloid peptides
     year: '2024'
   eRfVtdwAAAAJ:u-x6o8ySG0sC:
@@ -270,7 +270,7 @@ papers:
     title: Designing antifreezing hydrogels with enhanced mechanical properties using a simple crosslinker
     year: '2023'
   eRfVtdwAAAAJ:uWQEDVKXjbEC:
-    citations: 81
+    citations: 82
     title: 'Protein conformational ensembles in function: roles and mechanisms'
     year: '2023'
   eRfVtdwAAAAJ:u_35RYKgDlwC:
@@ -282,7 +282,7 @@ papers:
     title: Molecular dynamics simulation of the effect of carbon space lengths on the antifouling properties of hydroxyalkyl acrylamides
     year: '2019'
   eRfVtdwAAAAJ:vRqMK49ujn8C:
-    citations: 23
+    citations: 24
     title: Mitogen signaling strength and duration can control cell cycle decisions
     year: '2024'
   eRfVtdwAAAAJ:xtRiw3GOFMkC:
