@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-25'
+  last_updated: '2026-03-30'
 papers:
   eRfVtdwAAAAJ:08ZZubdj9fEC:
     citations: 6
@@ -42,7 +42,7 @@ papers:
     title: "Amyloid cross-seeding between A\u03B2 and hIAPP in relation to the pathogenesis of Alzheimer and type 2 diabetes"
     year: '2021'
   eRfVtdwAAAAJ:8AbLer7MMksC:
-    citations: 58
+    citations: 59
     title: 'Antifreezing hydrogels: from mechanisms and strategies to applications'
     year: '2025'
   eRfVtdwAAAAJ:9ZlFYXVOiuMC:
@@ -62,7 +62,7 @@ papers:
     title: "Activation mechanisms of clinically distinct B\u2010Raf V600E and V600K mutants"
     year: '2023'
   eRfVtdwAAAAJ:D03iK_w7-QYC:
-    citations: 65
+    citations: 67
     title: 'Allostery: allosteric cancer drivers and innovative allosteric drugs'
     year: '2022'
   eRfVtdwAAAAJ:EUQCXRtRnyEC:
@@ -74,7 +74,7 @@ papers:
     title: Perspectives on theoretical models and molecular simulations of polymer brushes
     year: '2023'
   eRfVtdwAAAAJ:KlAtU1dfN6UC:
-    citations: 164
+    citations: 165
     title: Molecular simulations and understanding of antifouling zwitterionic polymer brushes
     year: '2020'
   eRfVtdwAAAAJ:LPZeul_q3PIC:
@@ -102,7 +102,7 @@ papers:
     title: 'AlphaFold, allosteric, and orthosteric drug discovery: Ways forward'
     year: '2023'
   eRfVtdwAAAAJ:QIV2ME_5wuYC:
-    citations: 245
+    citations: 246
     title: Highly stretchable, self-adhesive, biocompatible, conductive hydrogels as fully polymeric strain sensors
     year: '2020'
   eRfVtdwAAAAJ:Tiz5es2fbqcC:
@@ -118,7 +118,7 @@ papers:
     title: "Interaction of cinnamic acid derivatives with \u03B2-cyclodextrin in water: Experimental and molecular modeling studies"
     year: '2016'
   eRfVtdwAAAAJ:UebtZRa9Y70C:
-    citations: 145
+    citations: 147
     title: 'Fundamentals of cross-seeding of amyloid proteins: an introduction'
     year: '2019'
   eRfVtdwAAAAJ:W7OEmFMy1HYC:
@@ -166,7 +166,7 @@ papers:
     title: The mechanism of activation of MEK1 by B-Raf and KSR1
     year: '2022'
   eRfVtdwAAAAJ:abG-DnoFyZgC:
-    citations: 196
+    citations: 197
     title: AlphaFold, artificial intelligence (AI), and allostery
     year: '2022'
   eRfVtdwAAAAJ:aqlVkmm33-oC:
@@ -178,7 +178,7 @@ papers:
     title: Allosteric regulation of autoinhibition and activation of c-Abl
     year: '2022'
   eRfVtdwAAAAJ:bEWYMUwI8FkC:
-    citations: 55
+    citations: 56
     title: Machine learning-enabled repurposing and design of antifouling polymer brushes
     year: '2021'
   eRfVtdwAAAAJ:bFI3QPDXJZMC:
@@ -250,7 +250,7 @@ papers:
     title: "Design and engineering of amyloid aggregation\u2010prone fragments and their antimicrobial conjugates with multi\u2010target functionality"
     year: '2021'
   eRfVtdwAAAAJ:sSrBHYA8nusC:
-    citations: 20
+    citations: 21
     title: Machine learning aided design and optimization of antifouling surfaces
     year: '2024'
   eRfVtdwAAAAJ:tOudhMTPpwUC:
@@ -258,7 +258,7 @@ papers:
     title: 'CDK2 and CDK4: cell cycle functions evolve distinct, catalysis-competent conformations, offering drug targets'
     year: '2024'
   eRfVtdwAAAAJ:tS2w5q8j5-wC:
-    citations: 35
+    citations: 37
     title: Exploring pathological link between antimicrobial and amyloid peptides
     year: '2024'
   eRfVtdwAAAAJ:u-x6o8ySG0sC:
@@ -274,7 +274,7 @@ papers:
     title: Designing antifreezing hydrogels with enhanced mechanical properties using a simple crosslinker
     year: '2023'
   eRfVtdwAAAAJ:uWQEDVKXjbEC:
-    citations: 84
+    citations: 85
     title: 'Protein conformational ensembles in function: roles and mechanisms'
     year: '2023'
   eRfVtdwAAAAJ:u_35RYKgDlwC:
