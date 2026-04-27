@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-04-24'
+  last_updated: '2026-04-27'
 papers:
   eRfVtdwAAAAJ:08ZZubdj9fEC:
     citations: 6
     title: "SHP2\u2013EGFR States in Dephosphorylation Can Inform Selective SHP2 Inhibitors, Dampening RasGAP Action"
     year: '2024'
   eRfVtdwAAAAJ:0EnyYjriUFMC:
-    citations: 106
+    citations: 108
     title: "Genistein: a dual inhibitor of both amyloid \u03B2 and human islet amylin peptides"
     year: '2018'
   eRfVtdwAAAAJ:1sJd4Hv_s6UC:
@@ -42,7 +42,7 @@ papers:
     title: "Amyloid cross-seeding between A\u03B2 and hIAPP in relation to the pathogenesis of Alzheimer and type 2 diabetes"
     year: '2021'
   eRfVtdwAAAAJ:8AbLer7MMksC:
-    citations: 71
+    citations: 73
     title: 'Antifreezing hydrogels: from mechanisms and strategies to applications'
     year: '2025'
   eRfVtdwAAAAJ:9ZlFYXVOiuMC:
@@ -82,7 +82,7 @@ papers:
     title: Perspectives on theoretical models and molecular simulations of polymer brushes
     year: '2023'
   eRfVtdwAAAAJ:KlAtU1dfN6UC:
-    citations: 168
+    citations: 169
     title: Molecular simulations and understanding of antifouling zwitterionic polymer brushes
     year: '2020'
   eRfVtdwAAAAJ:LPZeul_q3PIC:
@@ -106,7 +106,7 @@ papers:
     title: Application of an R-group search strategy into three-dimensional quantitative structure-activity relationship of HEA beta-secretase inhibitors and molecular virtual screening
     year: '2014'
   eRfVtdwAAAAJ:P5F9QuxV20EC:
-    citations: 102
+    citations: 103
     title: 'AlphaFold, allosteric, and orthosteric drug discovery: Ways forward'
     year: '2023'
   eRfVtdwAAAAJ:QIV2ME_5wuYC:
@@ -126,7 +126,7 @@ papers:
     title: "Interaction of cinnamic acid derivatives with \u03B2-cyclodextrin in water: Experimental and molecular modeling studies"
     year: '2016'
   eRfVtdwAAAAJ:UebtZRa9Y70C:
-    citations: 149
+    citations: 150
     title: 'Fundamentals of cross-seeding of amyloid proteins: an introduction'
     year: '2019'
   eRfVtdwAAAAJ:VOx2b1Wkg3QC:
@@ -178,7 +178,7 @@ papers:
     title: The mechanism of activation of MEK1 by B-Raf and KSR1
     year: '2022'
   eRfVtdwAAAAJ:abG-DnoFyZgC:
-    citations: 198
+    citations: 200
     title: AlphaFold, artificial intelligence (AI), and allostery
     year: '2022'
   eRfVtdwAAAAJ:aqlVkmm33-oC:
@@ -198,7 +198,7 @@ papers:
     title: Conformational-specific self-assembled peptides as dual-mode, multi-target inhibitors and detectors for different amyloid proteins
     year: '2022'
   eRfVtdwAAAAJ:cFHS6HbyZ2cC:
-    citations: 14
+    citations: 15
     title: "A new strategy to reconcile amyloid cross\u2010seeding and amyloid prevention in a binary system of \u03B1\u2010synuclein fragmental peptide and hIAPP"
     year: '2022'
   eRfVtdwAAAAJ:d1gkVwhDpl0C:
@@ -258,11 +258,11 @@ papers:
     title: Machine learning-enabled design and prediction of protein resistance on self-assembled monolayers and beyond
     year: '2021'
   eRfVtdwAAAAJ:nb7KW1ujOQ8C:
-    citations: 50
+    citations: 51
     title: Neurodevelopmental disorders, like cancer, are connected to impaired chromatin remodelers, PI3K/mTOR, and PAK1-regulated MAPK
     year: '2023'
   eRfVtdwAAAAJ:p2g8aNsByqUC:
-    citations: 28
+    citations: 29
     title: Cell phenotypes can be predicted from propensities of protein conformations
     year: '2023'
   eRfVtdwAAAAJ:qjMakFHDy7sC:
