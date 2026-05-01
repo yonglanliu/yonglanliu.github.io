@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-27'
+  last_updated: '2026-05-01'
 papers:
   eRfVtdwAAAAJ:08ZZubdj9fEC:
     citations: 6
@@ -18,7 +18,7 @@ papers:
     title: Membrane interactions of hIAPP monomer and oligomer with lipid membranes by molecular dynamics simulations
     year: '2017'
   eRfVtdwAAAAJ:3fE2CSJIrl8C:
-    citations: 63
+    citations: 64
     title: "Ginnalin A inhibits aggregation, reverses fibrillogenesis, and alleviates cytotoxicity of amyloid \u03B2 (1\u201342)"
     year: '2020'
   eRfVtdwAAAAJ:4TOpqqG69KYC:
@@ -42,7 +42,7 @@ papers:
     title: "Amyloid cross-seeding between A\u03B2 and hIAPP in relation to the pathogenesis of Alzheimer and type 2 diabetes"
     year: '2021'
   eRfVtdwAAAAJ:8AbLer7MMksC:
-    citations: 73
+    citations: 77
     title: 'Antifreezing hydrogels: from mechanisms and strategies to applications'
     year: '2025'
   eRfVtdwAAAAJ:9ZlFYXVOiuMC:
@@ -106,7 +106,7 @@ papers:
     title: Application of an R-group search strategy into three-dimensional quantitative structure-activity relationship of HEA beta-secretase inhibitors and molecular virtual screening
     year: '2014'
   eRfVtdwAAAAJ:P5F9QuxV20EC:
-    citations: 103
+    citations: 105
     title: 'AlphaFold, allosteric, and orthosteric drug discovery: Ways forward'
     year: '2023'
   eRfVtdwAAAAJ:QIV2ME_5wuYC:
@@ -122,7 +122,7 @@ papers:
     title: Molecular simulation aspects of amyloid peptides at membrane interface
     year: '2018'
   eRfVtdwAAAAJ:UeHWp8X0CEIC:
-    citations: 52
+    citations: 53
     title: "Interaction of cinnamic acid derivatives with \u03B2-cyclodextrin in water: Experimental and molecular modeling studies"
     year: '2016'
   eRfVtdwAAAAJ:UebtZRa9Y70C:
@@ -138,7 +138,7 @@ papers:
     title: Experimental and computational protocols for studies of cross-seeding amyloid assemblies
     year: '2018'
   eRfVtdwAAAAJ:WF5omc3nYNoC:
-    citations: 32
+    citations: 33
     title: Lipase-catalyzed synthesis mechanism of tri-acetylated phloridzin and its antiproliferative activity against HepG2 cancer cells
     year: '2019'
   eRfVtdwAAAAJ:XiSMed-E-HIC:
@@ -154,7 +154,7 @@ papers:
     title: "Design principles and fundamental understanding of biosensors for amyloid-\u03B2 detection"
     year: '2020'
   eRfVtdwAAAAJ:YsMSGLbcyi4C:
-    citations: 222
+    citations: 223
     title: "Super bulk and interfacial toughness of physically crosslinked double\u2010network hydrogels"
     year: '2017'
   eRfVtdwAAAAJ:Zph67rFs4hoC:
@@ -174,11 +174,11 @@ papers:
     title: "Cross-seeding between A\u03B2 and SEVI indicates a pathogenic link and gender difference between alzheimer diseases and AIDS"
     year: '2022'
   eRfVtdwAAAAJ:a0OBvERweLwC:
-    citations: 32
+    citations: 33
     title: The mechanism of activation of MEK1 by B-Raf and KSR1
     year: '2022'
   eRfVtdwAAAAJ:abG-DnoFyZgC:
-    citations: 200
+    citations: 204
     title: AlphaFold, artificial intelligence (AI), and allostery
     year: '2022'
   eRfVtdwAAAAJ:aqlVkmm33-oC:
@@ -186,7 +186,7 @@ papers:
     title: Dual amyloid cross-seeding reveals steric zipper-facilitated fibrillization and pathological links between protein misfolding diseases
     year: '2021'
   eRfVtdwAAAAJ:b0M2c_1WBrUC:
-    citations: 36
+    citations: 37
     title: Allosteric regulation of autoinhibition and activation of c-Abl
     year: '2022'
   eRfVtdwAAAAJ:bEWYMUwI8FkC:
@@ -262,7 +262,7 @@ papers:
     title: Neurodevelopmental disorders, like cancer, are connected to impaired chromatin remodelers, PI3K/mTOR, and PAK1-regulated MAPK
     year: '2023'
   eRfVtdwAAAAJ:p2g8aNsByqUC:
-    citations: 29
+    citations: 28
     title: Cell phenotypes can be predicted from propensities of protein conformations
     year: '2023'
   eRfVtdwAAAAJ:qjMakFHDy7sC:
@@ -298,7 +298,7 @@ papers:
     title: Designing antifreezing hydrogels with enhanced mechanical properties using a simple crosslinker
     year: '2023'
   eRfVtdwAAAAJ:uWQEDVKXjbEC:
-    citations: 89
+    citations: 90
     title: 'Protein conformational ensembles in function: roles and mechanisms'
     year: '2023'
   eRfVtdwAAAAJ:u_35RYKgDlwC:
@@ -310,7 +310,7 @@ papers:
     title: Molecular dynamics simulation of the effect of carbon space lengths on the antifouling properties of hydroxyalkyl acrylamides
     year: '2019'
   eRfVtdwAAAAJ:vRqMK49ujn8C:
-    citations: 26
+    citations: 27
     title: Mitogen signaling strength and duration can control cell cycle decisions
     year: '2024'
   eRfVtdwAAAAJ:xtRiw3GOFMkC:
