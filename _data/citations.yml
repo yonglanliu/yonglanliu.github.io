@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-01'
+  last_updated: '2026-05-04'
 papers:
   eRfVtdwAAAAJ:08ZZubdj9fEC:
     citations: 6
@@ -30,7 +30,7 @@ papers:
     title: mTOR variants activation discovers PI3K-like cryptic pocket, expanding allosteric, mutant-selective inhibitor designs
     year: '2025'
   eRfVtdwAAAAJ:5Ul4iDaHHb8C:
-    citations: 2
+    citations: 3
     title: 'M-Ras distinct activation scenarios: A mechanistic outlook and targeting'
     year: '2025'
   eRfVtdwAAAAJ:738O_yMBCRsC:
@@ -42,7 +42,7 @@ papers:
     title: "Amyloid cross-seeding between A\u03B2 and hIAPP in relation to the pathogenesis of Alzheimer and type 2 diabetes"
     year: '2021'
   eRfVtdwAAAAJ:8AbLer7MMksC:
-    citations: 77
+    citations: 76
     title: 'Antifreezing hydrogels: from mechanisms and strategies to applications'
     year: '2025'
   eRfVtdwAAAAJ:9ZlFYXVOiuMC:
@@ -70,7 +70,7 @@ papers:
     title: 'Allostery: allosteric cancer drivers and innovative allosteric drugs'
     year: '2022'
   eRfVtdwAAAAJ:D_sINldO8mEC:
-    citations: 2
+    citations: 3
     title: "Oncogenic PI3K\u03B1 variants reveal graded conformational spectrum with mutation-specific cryptic pockets"
     year: '2026'
   eRfVtdwAAAAJ:EUQCXRtRnyEC:
@@ -82,7 +82,7 @@ papers:
     title: Perspectives on theoretical models and molecular simulations of polymer brushes
     year: '2023'
   eRfVtdwAAAAJ:KlAtU1dfN6UC:
-    citations: 169
+    citations: 168
     title: Molecular simulations and understanding of antifouling zwitterionic polymer brushes
     year: '2020'
   eRfVtdwAAAAJ:LPZeul_q3PIC:
@@ -106,7 +106,7 @@ papers:
     title: Application of an R-group search strategy into three-dimensional quantitative structure-activity relationship of HEA beta-secretase inhibitors and molecular virtual screening
     year: '2014'
   eRfVtdwAAAAJ:P5F9QuxV20EC:
-    citations: 105
+    citations: 106
     title: 'AlphaFold, allosteric, and orthosteric drug discovery: Ways forward'
     year: '2023'
   eRfVtdwAAAAJ:QIV2ME_5wuYC:
@@ -138,7 +138,7 @@ papers:
     title: Experimental and computational protocols for studies of cross-seeding amyloid assemblies
     year: '2018'
   eRfVtdwAAAAJ:WF5omc3nYNoC:
-    citations: 33
+    citations: 34
     title: Lipase-catalyzed synthesis mechanism of tri-acetylated phloridzin and its antiproliferative activity against HepG2 cancer cells
     year: '2019'
   eRfVtdwAAAAJ:XiSMed-E-HIC:
@@ -154,7 +154,7 @@ papers:
     title: "Design principles and fundamental understanding of biosensors for amyloid-\u03B2 detection"
     year: '2020'
   eRfVtdwAAAAJ:YsMSGLbcyi4C:
-    citations: 223
+    citations: 222
     title: "Super bulk and interfacial toughness of physically crosslinked double\u2010network hydrogels"
     year: '2017'
   eRfVtdwAAAAJ:Zph67rFs4hoC:
@@ -178,7 +178,7 @@ papers:
     title: The mechanism of activation of MEK1 by B-Raf and KSR1
     year: '2022'
   eRfVtdwAAAAJ:abG-DnoFyZgC:
-    citations: 204
+    citations: 205
     title: AlphaFold, artificial intelligence (AI), and allostery
     year: '2022'
   eRfVtdwAAAAJ:aqlVkmm33-oC:
@@ -214,7 +214,7 @@ papers:
     title: Repurposing a cardiovascular disease drug of cloridarol as hIAPP inhibitor
     year: '2021'
   eRfVtdwAAAAJ:dshw04ExmUIC:
-    citations: 10
+    citations: 11
     title: 'Cell cycle progression mechanisms: slower cyclin-D/CDK4 activation and faster cyclin-E/CDK2'
     year: '2023'
   eRfVtdwAAAAJ:eJXPG6dFmWUC:
@@ -298,11 +298,11 @@ papers:
     title: Designing antifreezing hydrogels with enhanced mechanical properties using a simple crosslinker
     year: '2023'
   eRfVtdwAAAAJ:uWQEDVKXjbEC:
-    citations: 90
+    citations: 91
     title: 'Protein conformational ensembles in function: roles and mechanisms'
     year: '2023'
   eRfVtdwAAAAJ:u_35RYKgDlwC:
-    citations: 179
+    citations: 180
     title: A general crosslinker strategy to realize intrinsic frozen resistance of hydrogels
     year: '2021'
   eRfVtdwAAAAJ:ufrVoPGSRksC:
