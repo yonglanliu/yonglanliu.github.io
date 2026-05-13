@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-05-04'
+  last_updated: '2026-05-13'
 papers:
   eRfVtdwAAAAJ:08ZZubdj9fEC:
     citations: 6
     title: "SHP2\u2013EGFR States in Dephosphorylation Can Inform Selective SHP2 Inhibitors, Dampening RasGAP Action"
     year: '2024'
   eRfVtdwAAAAJ:0EnyYjriUFMC:
-    citations: 108
+    citations: 109
     title: "Genistein: a dual inhibitor of both amyloid \u03B2 and human islet amylin peptides"
     year: '2018'
   eRfVtdwAAAAJ:1sJd4Hv_s6UC:
@@ -30,7 +30,7 @@ papers:
     title: mTOR variants activation discovers PI3K-like cryptic pocket, expanding allosteric, mutant-selective inhibitor designs
     year: '2025'
   eRfVtdwAAAAJ:5Ul4iDaHHb8C:
-    citations: 3
+    citations: 4
     title: 'M-Ras distinct activation scenarios: A mechanistic outlook and targeting'
     year: '2025'
   eRfVtdwAAAAJ:738O_yMBCRsC:
@@ -42,7 +42,7 @@ papers:
     title: "Amyloid cross-seeding between A\u03B2 and hIAPP in relation to the pathogenesis of Alzheimer and type 2 diabetes"
     year: '2021'
   eRfVtdwAAAAJ:8AbLer7MMksC:
-    citations: 76
+    citations: 82
     title: 'Antifreezing hydrogels: from mechanisms and strategies to applications'
     year: '2025'
   eRfVtdwAAAAJ:9ZlFYXVOiuMC:
@@ -74,7 +74,7 @@ papers:
     title: "Oncogenic PI3K\u03B1 variants reveal graded conformational spectrum with mutation-specific cryptic pockets"
     year: '2026'
   eRfVtdwAAAAJ:EUQCXRtRnyEC:
-    citations: 26
+    citations: 27
     title: The structural basis of BCR-ABL recruitment of GRB2 in chronic myelogenous leukemia
     year: '2022'
   eRfVtdwAAAAJ:K3LRdlH-MEoC:
@@ -106,11 +106,11 @@ papers:
     title: Application of an R-group search strategy into three-dimensional quantitative structure-activity relationship of HEA beta-secretase inhibitors and molecular virtual screening
     year: '2014'
   eRfVtdwAAAAJ:P5F9QuxV20EC:
-    citations: 106
+    citations: 109
     title: 'AlphaFold, allosteric, and orthosteric drug discovery: Ways forward'
     year: '2023'
   eRfVtdwAAAAJ:QIV2ME_5wuYC:
-    citations: 248
+    citations: 249
     title: Highly stretchable, self-adhesive, biocompatible, conductive hydrogels as fully polymeric strain sensors
     year: '2020'
   eRfVtdwAAAAJ:Tiz5es2fbqcC:
@@ -154,7 +154,7 @@ papers:
     title: "Design principles and fundamental understanding of biosensors for amyloid-\u03B2 detection"
     year: '2020'
   eRfVtdwAAAAJ:YsMSGLbcyi4C:
-    citations: 222
+    citations: 223
     title: "Super bulk and interfacial toughness of physically crosslinked double\u2010network hydrogels"
     year: '2017'
   eRfVtdwAAAAJ:Zph67rFs4hoC:
@@ -206,7 +206,7 @@ papers:
     title: Insights into the adsorption of simple benzene derivatives on carbon nanotubes
     year: '2014'
   eRfVtdwAAAAJ:dfsIfKJdRG4C:
-    citations: 46
+    citations: 47
     title: "Antimicrobial \u03B1-defensins as multi-target inhibitors against amyloid formation and microbial infection"
     year: '2021'
   eRfVtdwAAAAJ:dhFuZR0502QC:
@@ -250,7 +250,7 @@ papers:
     title: Computational investigation of antifouling property of polyacrylamide brushes
     year: '2020'
   eRfVtdwAAAAJ:l7t_Zn2s7bgC:
-    citations: 17
+    citations: 18
     title: Slower CDK4 and faster CDK2 activation in the cell cycle
     year: '2024'
   eRfVtdwAAAAJ:mVmsd5A6BfQC:
@@ -282,7 +282,7 @@ papers:
     title: 'CDK2 and CDK4: cell cycle functions evolve distinct, catalysis-competent conformations, offering drug targets'
     year: '2024'
   eRfVtdwAAAAJ:tS2w5q8j5-wC:
-    citations: 40
+    citations: 41
     title: Exploring pathological link between antimicrobial and amyloid peptides
     year: '2024'
   eRfVtdwAAAAJ:u-x6o8ySG0sC:
@@ -298,7 +298,7 @@ papers:
     title: Designing antifreezing hydrogels with enhanced mechanical properties using a simple crosslinker
     year: '2023'
   eRfVtdwAAAAJ:uWQEDVKXjbEC:
-    citations: 91
+    citations: 93
     title: 'Protein conformational ensembles in function: roles and mechanisms'
     year: '2023'
   eRfVtdwAAAAJ:u_35RYKgDlwC:
