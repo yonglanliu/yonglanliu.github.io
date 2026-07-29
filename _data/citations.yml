@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-22'
+  last_updated: '2026-07-29'
 papers:
   eRfVtdwAAAAJ:08ZZubdj9fEC:
     citations: 6
     title: "SHP2\u2013EGFR States in Dephosphorylation Can Inform Selective SHP2 Inhibitors, Dampening RasGAP Action"
     year: '2024'
   eRfVtdwAAAAJ:0EnyYjriUFMC:
-    citations: 109
+    citations: 108
     title: "Genistein: a dual inhibitor of both amyloid \u03B2 and human islet amylin peptides"
     year: '2018'
   eRfVtdwAAAAJ:1sJd4Hv_s6UC:
@@ -42,7 +42,7 @@ papers:
     title: "Amyloid cross-seeding between A\u03B2 and hIAPP in relation to the pathogenesis of Alzheimer and type 2 diabetes"
     year: '2021'
   eRfVtdwAAAAJ:8AbLer7MMksC:
-    citations: 109
+    citations: 111
     title: 'Antifreezing hydrogels: from mechanisms and strategies to applications'
     year: '2025'
   eRfVtdwAAAAJ:9ZlFYXVOiuMC:
@@ -106,7 +106,7 @@ papers:
     title: Application of an R-group search strategy into three-dimensional quantitative structure-activity relationship of HEA beta-secretase inhibitors and molecular virtual screening
     year: '2014'
   eRfVtdwAAAAJ:P5F9QuxV20EC:
-    citations: 113
+    citations: 114
     title: 'AlphaFold, allosteric, and orthosteric drug discovery: Ways forward'
     year: '2023'
   eRfVtdwAAAAJ:QIV2ME_5wuYC:
@@ -158,7 +158,7 @@ papers:
     title: "Super bulk and interfacial toughness of physically crosslinked double\u2010network hydrogels"
     year: '2017'
   eRfVtdwAAAAJ:Zph67rFs4hoC:
-    citations: 105
+    citations: 106
     title: Double-network physical cross-linking strategy to promote bulk mechanical and surface adhesive properties of hydrogels
     year: '2019'
   eRfVtdwAAAAJ:_FxGoFyzp5QC:
@@ -178,7 +178,7 @@ papers:
     title: The mechanism of activation of MEK1 by B-Raf and KSR1
     year: '2022'
   eRfVtdwAAAAJ:abG-DnoFyZgC:
-    citations: 218
+    citations: 217
     title: AlphaFold, artificial intelligence (AI), and allostery
     year: '2022'
   eRfVtdwAAAAJ:aqlVkmm33-oC:
@@ -186,7 +186,7 @@ papers:
     title: Dual amyloid cross-seeding reveals steric zipper-facilitated fibrillization and pathological links between protein misfolding diseases
     year: '2021'
   eRfVtdwAAAAJ:b0M2c_1WBrUC:
-    citations: 37
+    citations: 38
     title: Allosteric regulation of autoinhibition and activation of c-Abl
     year: '2022'
   eRfVtdwAAAAJ:bEWYMUwI8FkC:
@@ -290,7 +290,7 @@ papers:
     title: 'CDK2 and CDK4: cell cycle functions evolve distinct, catalysis-competent conformations, offering drug targets'
     year: '2024'
   eRfVtdwAAAAJ:tS2w5q8j5-wC:
-    citations: 48
+    citations: 49
     title: Exploring pathological link between antimicrobial and amyloid peptides
     year: '2024'
   eRfVtdwAAAAJ:u-x6o8ySG0sC:
@@ -306,7 +306,7 @@ papers:
     title: Designing antifreezing hydrogels with enhanced mechanical properties using a simple crosslinker
     year: '2023'
   eRfVtdwAAAAJ:uWQEDVKXjbEC:
-    citations: 109
+    citations: 110
     title: 'Protein conformational ensembles in function: roles and mechanisms'
     year: '2023'
   eRfVtdwAAAAJ:u_35RYKgDlwC:
